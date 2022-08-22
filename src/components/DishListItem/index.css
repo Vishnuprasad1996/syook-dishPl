@@ -1,0 +1,26 @@
+.dishItem {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .dishItem {
+    width: 30%;
+    margin-right: 25px;
+  }
+}
+
+.name {
+  color: #f1f5f9;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.desc {
+  color: #f1f5f9;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 5px;
+}
