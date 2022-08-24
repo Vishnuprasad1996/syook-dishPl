@@ -1,3 +1,19 @@
+Download dependencies by running
+
+npm install
+
+Start the app using
+
+cd myapp npm start
+
+Open http://localhost:3000 to view it in your browser.
+
+Language Used:
+
+Reactjs
+
+
+
 react-dishpoll
 Problem Statement
 Make a small react app for ranking dishes. Multiple users should be able to login into the app and vote for their favourite dishes and see the results of the poll.
