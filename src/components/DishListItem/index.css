@@ -2,6 +2,11 @@
   display: flex;
   flex-direction: column;
   margin-bottom: 20px;
+  min-height: 500px;
+  justify-content: space-between;
+  background-color: #212121;
+  border-radius: 5px;
+  padding: 10px;
 }
 
 @media screen and (min-width: 768px) {
@@ -20,6 +25,40 @@
 
 .desc {
   color: #f1f5f9;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 5px;
+}
+
+.button-cont {
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+  width: 100%;
+}
+
+.vote-button {
+  color: #ffffff;
+  border: none;
+  background-color: #3b82f6;
+  font-weight: 600;
+  height: 40px;
+  width: 80px;
+  cursor: pointer;
+  outline: none;
+}
+
+.rank-cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #f1f5f9;
+  padding: 10px;
+}
+
+.rank-text {
+  color: #212121;
   font-size: 16px;
   font-weight: 500;
   margin-top: 5px;

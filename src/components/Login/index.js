@@ -12,7 +12,7 @@ class Login extends Component {
 
   onSubmitSuccess = () => {
     const { history } = this.props;
-    history.replace("/");
+    history.replace("/home");
   };
 
   onSubmitLoginForm = async (event) => {
@@ -26,9 +26,9 @@ class Login extends Component {
     this.setState({ userList: data });
     userList.map((eachList) => {
       if (eachList.username === username && eachList.password === password) {
-        this.onSubmitSuccess();
+        return this.onSubmitSuccess();
       } else {
-        this.setState({ errorOnSubmit: true });
+        return this.setState({ errorOnSubmit: true });
       }
     });
   };

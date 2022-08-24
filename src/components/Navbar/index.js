@@ -4,7 +4,7 @@ import "./index.css";
 
 const Navbar = () => (
   <nav className="navbar">
-    <Link className="nav-link" to="/">
+    <Link className="nav-link" to="/home">
       <h1 className="nav-item">Home</h1>
     </Link>
     <div className="navbar-content">
