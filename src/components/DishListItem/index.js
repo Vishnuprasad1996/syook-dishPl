@@ -45,7 +45,7 @@ class DishListItem extends Component {
             onClickVoteButton({ ...dishDetails, rank, point });
           };
 
-          const isPollReachedMax = pollList.length > 3;
+          const isPollReachedMax = pollList.length === 3;
 
           return (
             <li className="dishItem">
